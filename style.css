@@ -1,0 +1,228 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: lightblue;
+    min-width: 310px;
+}
+.heading{
+    background-color: lightblue;
+    text-align: center;
+    padding:20px 10px;
+}
+.logo{
+    padding-top:30px;
+}
+.logo img{
+    border: solid 5px blue;
+    border-radius: 50%;
+}
+.nav-heading h1{
+    font-size: 2.3rem;
+    color: white;
+}
+.nav-menu a{
+    text-decoration: none;
+    padding:10px;
+    color: white;
+    display: block;
+    background-color:lightblue;
+    margin:10px 10px;
+    border:solid 3px lightblue;
+    border-radius: 30px;
+    font-size: 1.4rem;
+    margin:2px 20px;
+}
+.nav-menu a:hover{
+    background-color:rgb(101, 186, 214);
+}
+.heading::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.description{
+    text-align: center;
+    padding: 15px 15px;
+background-color: lightblue;    
+}
+.f-photo{
+height: 180px;
+width: 180px;
+padding: 30px;
+transition: 15s;
+}
+
+.s-photo{
+    height: 180px;
+    width: 180px;
+    padding: 30px;
+    transition: 15s;
+}
+.f-photo:hover{
+    transform: rotate(360deg);
+}
+.s-photo:hover{
+    transform: rotate(360deg);
+}
+.position{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    color: rgb(24, 125, 158);
+}
+.education h1{
+    text-align: center;
+    color:white;
+}
+.education{
+    text-align: center;
+}
+.education img{
+    padding: 10px;
+    min-width: 310;
+    height: 210px;
+text-align: center;
+}
+.card-edu{
+    font-family: 'Akaya Kanadaka', cursive;
+    text-align: center;
+    min-width: 300px;
+    margin: 30px;
+    border: solid 5px rgb(58, 179, 219);
+    border-radius: 15px;
+    padding:20px;
+    background-color:rgb(46, 134, 163);
+    color:black;
+}
+.card-edu:hover{
+        box-shadow: 3px 6px 10px black;
+    }
+    .card-edu img{
+        height: 120px;
+        width: 150px;
+    }
+
+.card-edu h1{
+    text-align: center;
+    color:black;
+    font-family: 'Anton', sans-serif;
+}
+.description::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.skills{
+    padding: 10px;
+}
+.card-heading{
+    color: white;
+}
+.skills h1{
+    text-align: center;
+    color: white;
+}
+.dotted-hr{
+    border:dotted 7px white;
+    border-bottom:none ;
+    width: 140px;
+    margin-bottom: 10px;
+}
+.card{
+    min-width: 300px;
+    margin: 30px;
+    border: solid 5px rgb(58, 179, 219);
+    border-radius: 15px;
+    padding:20px;
+    background-color:rgb(46, 134, 163);
+    color:black;
+    
+}
+.card:hover{
+    box-shadow: 3px 6px 10px black;
+}
+.card-heading{
+    text-align: center;
+}
+.skills::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.certification-heading{
+    color: white;
+    text-align: center;
+}
+.certification{
+    text-align: center;
+    color: white;
+    
+}
+.certification img{
+    height: 210px;
+   min-width:310px;
+    margin-top: 10px;
+    border: solid 5px lightblue;
+    border-radius: 20px;
+    text-align: center;
+}
+.certification img:hover{
+    box-shadow: 3px 6px 10px gray;
+}
+.certification::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.contact-heading{
+    color: white;
+    text-align: center;
+}
+
+
+.info-contact{
+    text-align: center;
+background-color: lightblue;
+    min-width: 310px;
+    height: auto;
+    text-align: center;
+    border: solid 5px lightblue;
+}
+
+.info-contact input{
+    margin: 10px;
+    padding: 8px;
+    min-width: 310px;
+    border: solid 3px white;
+    border-radius: 10px;
+    
+}
+.info-contact textarea{
+    padding: 10px;
+    min-width: 310px;
+    border: solid 3px white;
+    border-radius: 10px;
+}
+#submit{
+    background-color:blanchedalmond;
+}
+#submit:hover{
+    background-color: grey;
+}
+#reset{
+    background-color: blanchedalmond;
+    margin-bottom: 20px;
+}
+#reset:hover{
+    background-color: grey;
+}
+.info-contact{
+    content: '';
+    display: table;
+    clear: both;
+}
