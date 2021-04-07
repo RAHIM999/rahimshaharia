@@ -186,6 +186,7 @@ text-align: center;
 
 
 .info-contact{
+    margin:0 auto;
     text-align: center;
 background-color: lightblue;
     min-width: 310px;
