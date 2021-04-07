@@ -223,7 +223,9 @@ background-color: lightblue;
     background-color: grey;
 }
 .contact-card{
-    text-align:center}
+    text-align:center;
+margin:0 auto;
+}
 .info-contact{
     content: '';
     display: table;
