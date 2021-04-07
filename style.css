@@ -222,6 +222,8 @@ background-color: lightblue;
 #reset:hover{
     background-color: grey;
 }
+.contact-card{
+    text-align:center}
 .info-contact{
     content: '';
     display: table;
